@@ -1,0 +1,12 @@
+<input type="radio" name="fruit" id="apple"> <!-- Мы также можем создать переключатели, чтобы можно было выбрать только один из вариантов. Чтобы сгрупировать переключатели, нужно присвоить им одно и то же имя, используя атрибут name -->
+        <label for="apple">Apple</label>
+        <br>
+        <input type="radio" name="fruit" id="cherry">
+        <label for="cherry">Cherry</label>
+        <br>
+        <input type="radio" name="fruit" id="banana">
+        <label for="banana">Banana</label>
+        <br><br>
+        
+        <label for="message">Message:</label>
+        <textarea id="message">
